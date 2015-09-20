@@ -1,6 +1,6 @@
 # Noscript Notification
 
-A small, simple, all in one file that can be dropped into any site to hide the site's content and display a clean simple warning to visitors to the site that they have javascript disabled. The script will degrade gracefully though function, finding the best one supported by the user's browser.
+A small, simple, all in one file that can be dropped into any site to hide the site's content and display a clean simple warning to visitors to the site that they have javascript disabled. The script will degrade gracefully though functions, finding the best one supported by the user's browser.
 
 ## Usage
 
@@ -11,7 +11,7 @@ Simply download [noscript-min.php](https://github.com/torrentails/noscript-notif
     require './noscript-min.php';
     ?>
     
-Make sure your main div is set to `display:hidden` and that it has the ID as above. For example:
+Make sure your main div is set to `display:none` and that it has the ID as above. For example:
 
     <div id='<?php echo MAINDIV; ?>' style='display:none;'>
     
