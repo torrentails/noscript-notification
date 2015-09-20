@@ -11,6 +11,10 @@ Simply download [noscript-min.php](https://github.com/torrentails/noscript-notif
     require './noscript-min.php';
     ?>
     
+Make sure your main div is set to `display:hidden` and that it has the ID as above. For example:
+
+    <div id='<?php echo MAINDIV; ?>' style='display:none;'>
+    
 ## Licence
 
 Copyright (C) 2015 Nathan Sullivan
